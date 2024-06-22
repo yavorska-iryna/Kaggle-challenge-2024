@@ -3,7 +3,7 @@
 
 The goal of this competition is to develop models that can assist in detecting and classifying degenerative spine conditions using lumbar spine MRI images. Participants will create models simulating a radiologist's performance in diagnosing spine conditions.
 
-Competition Details
+## Competition Details
 Start Date: May 16, 2024
 Entry Deadline: October 1, 2024
 Team Merger Deadline: October 1, 2024
@@ -29,14 +29,15 @@ Submissions are evaluated using sample weighted log losses and an any_severe_spi
 4 for Severe
 Predictions must be in the following format:
 
-python
-Copy code
+```
 row_id,normal_mild,moderate,severe
 123456_left_neural_foraminal_narrowing_l1_l2,0.333,0.333,0.333
 ...
+```
+
 Missing vertebrae predictions must still be made to avoid errors but won't be scored.
 
-Submission and Contact
+## Submission and Contact
 Challenge winners will be recognized at the RSNA 2024 annual meeting. For more information, contact RSNA Informatics staff at informatics@rsna.org.
 
 Note: All deadlines are at 11:59 PM UTC. The organizers reserve the right to update the contest timeline if necessary.
