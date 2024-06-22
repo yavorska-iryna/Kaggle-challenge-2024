@@ -24,9 +24,9 @@ Severity scores (Normal/Mild, Moderate, Severe) are provided for these condition
 ## Evaluation
 Submissions are evaluated using sample weighted log losses and an any_severe_spinal prediction metric. The sample weights are:
 
-1 for Normal/Mild
-2 for Moderate
-4 for Severe
+[1] for Normal/Mild
+[2] for Moderate
+[4] for Severe
 Predictions must be in the following format:
 
 ```
