@@ -41,3 +41,12 @@ Missing vertebrae predictions must still be made to avoid errors but won't be sc
 Challenge winners will be recognized at the RSNA 2024 annual meeting. For more information, contact RSNA Informatics staff at informatics@rsna.org.
 
 Note: All deadlines are at 11:59 PM UTC. The organizers reserve the right to update the contest timeline if necessary.
+
+## Enviroment setup
+```
+conda env create -f environment.yml
+conda activate kaggle_challenge
+```
+
+## Data download
+Data should be downloaded from https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification/data and saved in the `data` folder in the root of this repo. The data folder is in the .gitignore to avoid uploading data to github. 
