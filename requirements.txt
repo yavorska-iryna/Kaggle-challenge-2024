@@ -1,0 +1,17 @@
+torch
+torchvision
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+jupyter
+pillow
+tqdm
+setuptools
+wheel
+pip
+GitPython
+pydicom
+
+-e .
